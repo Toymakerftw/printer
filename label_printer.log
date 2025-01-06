@@ -1,0 +1,153 @@
+2025-01-06 19:00:51,350 - INFO - Fetching data from Google Sheets...
+2025-01-06 19:00:51,350 - INFO - Fetching data from Google Sheets...
+2025-01-06 19:00:52,702 - INFO - Data fetched successfully. Processing...
+2025-01-06 19:00:52,702 - WARNING - Skipping comment row: ['//Asset id ', 'Assigned to ', 'Laptop id', 'laptop os ', 'QR']
+2025-01-06 19:00:52,703 - INFO - Data processed and saved.
+2025-01-06 19:00:52,703 - INFO - Data processed and saved.
+2025-01-06 19:00:58,006 - INFO - Downloading QR codes...
+2025-01-06 19:00:58,006 - INFO - Downloading QR codes...
+2025-01-06 19:00:58,006 - INFO - Processing asset tag: 1436
+2025-01-06 19:00:58,007 - DEBUG - Starting new HTTP connection (1): localhost:8080
+2025-01-06 19:00:58,161 - DEBUG - http://localhost:8080 "GET /api/v1/hardware/bytag/1436 HTTP/1.1" 200 None
+2025-01-06 19:00:58,161 - INFO - Successfully retrieved asset data for tag: 1436
+2025-01-06 19:00:58,162 - DEBUG - Starting new HTTP connection (1): localhost:8080
+2025-01-06 19:00:58,164 - DEBUG - http://localhost:8080 "GET /uploads/barcodes/qr-1436-1243.png HTTP/1.1" 200 288
+2025-01-06 19:00:58,164 - INFO - Successfully downloaded QR code to: input/qr/1436.png
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,165 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - WARNING - Skipping invalid or empty row in CSV.
+2025-01-06 19:00:58,166 - INFO - Downloaded 1/0 QR codes successfully. 0 failed.
+2025-01-06 19:00:58,167 - INFO - QR codes downloaded successfully.
+2025-01-06 19:01:09,765 - INFO - Generating labels...
+2025-01-06 19:01:09,765 - INFO - Generating labels...
+2025-01-06 19:01:09,774 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-06 19:01:09,774 - DEBUG - STREAM b'cHRM' 41 32
+2025-01-06 19:01:09,774 - DEBUG - STREAM b'bKGD' 85 6
+2025-01-06 19:01:09,774 - DEBUG - b'bKGD' 85 6 (unknown)
+2025-01-06 19:01:09,774 - DEBUG - STREAM b'pHYs' 103 9
+2025-01-06 19:01:09,774 - DEBUG - STREAM b'orNT' 124 1
+2025-01-06 19:01:09,774 - DEBUG - b'orNT' 124 1 (unknown)
+2025-01-06 19:01:09,774 - DEBUG - STREAM b'tEXt' 137 37
+2025-01-06 19:01:09,774 - DEBUG - STREAM b'tEXt' 186 37
+2025-01-06 19:01:09,774 - DEBUG - STREAM b'tEXt' 235 40
+2025-01-06 19:01:09,774 - DEBUG - STREAM b'eXIf' 287 90
+2025-01-06 19:01:09,774 - DEBUG - STREAM b'IDAT' 389 16709
+2025-01-06 19:01:09,778 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-06 19:01:09,778 - DEBUG - STREAM b'PLTE' 41 6
+2025-01-06 19:01:09,778 - DEBUG - STREAM b'tRNS' 59 1
+2025-01-06 19:01:09,778 - DEBUG - STREAM b'pHYs' 72 9
+2025-01-06 19:01:09,778 - DEBUG - STREAM b'IDAT' 93 179
+2025-01-06 19:01:09,786 - INFO - Lap - Asset tag created for - 1436 . Saved as: output/lap-1436.png
+2025-01-06 19:01:09,786 - ERROR - Not enough QR codes available for all entries.
+2025-01-06 19:01:09,786 - INFO - Labels generated successfully.
+2025-01-06 19:01:09,787 - INFO - Labels generated successfully.
+2025-01-06 19:01:26,357 - INFO - Generating labels...
+2025-01-06 19:01:26,358 - INFO - Generating labels...
+2025-01-06 19:01:26,358 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-06 19:01:26,358 - DEBUG - STREAM b'cHRM' 41 32
+2025-01-06 19:01:26,358 - DEBUG - STREAM b'bKGD' 85 6
+2025-01-06 19:01:26,358 - DEBUG - b'bKGD' 85 6 (unknown)
+2025-01-06 19:01:26,358 - DEBUG - STREAM b'pHYs' 103 9
+2025-01-06 19:01:26,358 - DEBUG - STREAM b'orNT' 124 1
+2025-01-06 19:01:26,358 - DEBUG - b'orNT' 124 1 (unknown)
+2025-01-06 19:01:26,358 - DEBUG - STREAM b'tEXt' 137 37
+2025-01-06 19:01:26,358 - DEBUG - STREAM b'tEXt' 186 37
+2025-01-06 19:01:26,358 - DEBUG - STREAM b'tEXt' 235 40
+2025-01-06 19:01:26,358 - DEBUG - STREAM b'eXIf' 287 90
+2025-01-06 19:01:26,358 - DEBUG - STREAM b'IDAT' 389 16709
+2025-01-06 19:01:26,361 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-06 19:01:26,362 - DEBUG - STREAM b'PLTE' 41 6
+2025-01-06 19:01:26,362 - DEBUG - STREAM b'tRNS' 59 1
+2025-01-06 19:01:26,362 - DEBUG - STREAM b'pHYs' 72 9
+2025-01-06 19:01:26,362 - DEBUG - STREAM b'IDAT' 93 179
+2025-01-06 19:01:26,369 - INFO - Lap - Asset tag created for - 1436 . Saved as: output/lap-1436.png
+2025-01-06 19:01:26,369 - ERROR - Not enough QR codes available for all entries.
+2025-01-06 19:01:26,369 - INFO - Labels generated successfully.
+2025-01-06 19:01:26,372 - INFO - Labels generated successfully.
+2025-01-06 19:01:28,925 - INFO - Generating labels...
+2025-01-06 19:01:28,925 - INFO - Generating labels...
+2025-01-06 19:01:28,925 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-06 19:01:28,925 - DEBUG - STREAM b'cHRM' 41 32
+2025-01-06 19:01:28,925 - DEBUG - STREAM b'bKGD' 85 6
+2025-01-06 19:01:28,926 - DEBUG - b'bKGD' 85 6 (unknown)
+2025-01-06 19:01:28,926 - DEBUG - STREAM b'pHYs' 103 9
+2025-01-06 19:01:28,926 - DEBUG - STREAM b'orNT' 124 1
+2025-01-06 19:01:28,926 - DEBUG - b'orNT' 124 1 (unknown)
+2025-01-06 19:01:28,926 - DEBUG - STREAM b'tEXt' 137 37
+2025-01-06 19:01:28,926 - DEBUG - STREAM b'tEXt' 186 37
+2025-01-06 19:01:28,926 - DEBUG - STREAM b'tEXt' 235 40
+2025-01-06 19:01:28,926 - DEBUG - STREAM b'eXIf' 287 90
+2025-01-06 19:01:28,926 - DEBUG - STREAM b'IDAT' 389 16709
+2025-01-06 19:01:28,929 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-06 19:01:28,929 - DEBUG - STREAM b'PLTE' 41 6
+2025-01-06 19:01:28,929 - DEBUG - STREAM b'tRNS' 59 1
+2025-01-06 19:01:28,929 - DEBUG - STREAM b'pHYs' 72 9
+2025-01-06 19:01:28,929 - DEBUG - STREAM b'IDAT' 93 179
+2025-01-06 19:01:28,936 - INFO - Lap - Asset tag created for - 1436 . Saved as: output/lap-1436.png
+2025-01-06 19:01:28,936 - ERROR - Not enough QR codes available for all entries.
+2025-01-06 19:01:28,936 - INFO - Labels generated successfully.
+2025-01-06 19:01:28,938 - INFO - Labels generated successfully.
+2025-01-06 19:01:31,157 - INFO - Generating labels...
+2025-01-06 19:01:31,158 - INFO - Generating labels...
+2025-01-06 19:01:31,158 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-06 19:01:31,158 - DEBUG - STREAM b'cHRM' 41 32
+2025-01-06 19:01:31,158 - DEBUG - STREAM b'PLTE' 85 240
+2025-01-06 19:01:31,158 - DEBUG - STREAM b'bKGD' 337 1
+2025-01-06 19:01:31,158 - DEBUG - b'bKGD' 337 1 (unknown)
+2025-01-06 19:01:31,158 - DEBUG - STREAM b'pHYs' 350 9
+2025-01-06 19:01:31,158 - DEBUG - STREAM b'tIME' 371 7
+2025-01-06 19:01:31,158 - DEBUG - b'tIME' 371 7 (unknown)
+2025-01-06 19:01:31,158 - DEBUG - STREAM b'orNT' 390 1
+2025-01-06 19:01:31,158 - DEBUG - b'orNT' 390 1 (unknown)
+2025-01-06 19:01:31,158 - DEBUG - STREAM b'tEXt' 403 37
+2025-01-06 19:01:31,158 - DEBUG - STREAM b'tEXt' 452 37
+2025-01-06 19:01:31,158 - DEBUG - STREAM b'tEXt' 501 40
+2025-01-06 19:01:31,158 - DEBUG - STREAM b'eXIf' 553 90
+2025-01-06 19:01:31,159 - DEBUG - STREAM b'IDAT' 655 426
+2025-01-06 19:01:31,159 - DEBUG - STREAM b'IHDR' 16 13
+2025-01-06 19:01:31,160 - DEBUG - STREAM b'PLTE' 41 6
+2025-01-06 19:01:31,160 - DEBUG - STREAM b'tRNS' 59 1
+2025-01-06 19:01:31,160 - DEBUG - STREAM b'pHYs' 72 9
+2025-01-06 19:01:31,160 - DEBUG - STREAM b'IDAT' 93 179
+2025-01-06 19:01:31,160 - INFO - Asset Number - 1436. Saved as: output/Asset-no-1436.png
+2025-01-06 19:01:31,160 - ERROR - Not enough QR codes available for all entries.
+2025-01-06 19:01:31,160 - INFO - Labels generated successfully.
+2025-01-06 19:01:31,161 - INFO - Labels generated successfully.
+2025-01-06 19:02:56,236 - INFO - Fetching data from Google Sheets...
+2025-01-06 19:02:56,236 - INFO - Fetching data from Google Sheets...
+2025-01-06 19:02:57,571 - INFO - Data fetched successfully. Processing...
+2025-01-06 19:02:57,571 - WARNING - Skipping comment row: ['//Asset id ', 'Assigned to ', 'Laptop id', 'laptop os ', 'QR']
+2025-01-06 19:02:57,571 - INFO - Data processed and saved.
+2025-01-06 19:02:57,572 - INFO - Data processed and saved.
